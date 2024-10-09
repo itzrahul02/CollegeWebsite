@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "C:/Users/rahul/OneDrive/Desktop/Programs/Web Dev/React/CollegeSite/src/assets/logo.png";
+import logo from "../assets/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes, faAddressCard, faBuilding, faGraduationCap, faPerson, faBook, faEnvelope, faChalkboardUser, faNetworkWired } from "@fortawesome/free-solid-svg-icons";
 import './Navbar.css';

@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import logo from "C:/Users/rahul/OneDrive/Desktop/Programs/Web Dev/React/CollegeSite/src/assets/logo.png";
+import logo from "../assets/logo.png";
 import { faEnvelope, faLocationPin, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 import './Footer.css';
