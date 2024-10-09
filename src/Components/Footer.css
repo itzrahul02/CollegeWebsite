@@ -1,5 +1,5 @@
 .footer-background {
-    background-image: url('C:/Users/rahul/OneDrive/Desktop/Programs/Web Dev/React/CollegeSite/src/assets/background.png');
+    background-image: url('../assets/background.png');
     background-size: cover;
     background-position: center;
     position: relative;
