@@ -1,0 +1,226 @@
+.footer-background {
+    background-image: url('C:/Users/rahul/OneDrive/Desktop/Programs/Web Dev/React/CollegeSite/src/assets/background.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    margin-top: 6rem;
+    padding: 1rem;
+}
+
+.footer-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.footer-content {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 1rem;
+}
+
+.logo-section {
+    width: 28%;
+    position: relative;
+    margin-left: 1rem;
+}
+
+.logo {
+    width: 88px;
+    height: 88px;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+
+.institution-name {
+    color: white;
+    font-size: 1.25rem; 
+}
+
+.visit-site {
+    color: #648dff; 
+    font-size: 1.25rem;
+    margin-left: 0.5rem;
+}
+
+.divider {
+    height: 15rem;
+    opacity: 0.5;
+    width: 2px;
+    background-color: white;
+}
+
+.quick-links {
+    color: white;  
+}
+
+.quick-links-title {
+    font-size: 1.875rem; /* Equivalent to text-3xl */
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.quick-links-list {
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+    line-height: 28px;
+}
+
+.contact-info {
+    color: white;
+}
+
+.contact-title {
+    font-size: 1.875rem; 
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.contact-info ul {
+    list-style: none; 
+    padding: 0; 
+    line-height: 28px;
+}
+
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0E407C;
+    padding: 16px 4rem; /* Base padding */
+    color: white;
+    font-size: 1.125rem; /* Equivalent to text-[18px] */
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem; /* Space between social icons */
+}
+
+.social-icons a {
+    color: white; /* Icon color */
+    text-decoration: none; /* Remove underline */
+}
+
+.social-icons a:hover {
+    color: #1D4ED8; /* Change color on hover */
+}
+
+.logo-name {
+    display: flex;
+    align-items: center;
+}
+
+/* Media Queries for Responsiveness */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .institution-name {
+        font-size: 16px;
+    }
+    .logo {
+        height: 64px;
+        width: 64px;
+    }
+    .visit-site {
+        font-size: 14px;
+        position: relative;
+        top: -1rem;
+    }
+    .quick-links-title {
+        font-size: 1.25rem;
+    }
+    .quick-links-list {
+        font-size: 0.8rem;
+    }
+    .contact-title {
+        font-size: 1.25rem;
+    }
+    .contact-list {
+        font-size: 0.8rem;
+    }
+    .logo-section {
+        width: 35%;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo-name {
+        flex-direction: column;
+    }
+    .logo {
+        width: 54px;
+        height: 54px;
+    }
+    .institution-name {
+        font-size: 1rem;
+        content: 'IIIT Kota';
+    }
+    .quick-links-title {
+        font-size: 1.2rem;
+    }
+    .contact-title {
+        font-size: 1.1rem;
+    }
+    .contact-list {
+        font-size: 0.8rem;
+    }
+    .quick-links-list {
+        font-size: 0.8rem;
+        gap: 0.5em;
+    }
+}
+
+@media (max-width: 425px) {
+    .institution-name {
+        display: none;
+    }
+    .quick-links-title {
+        font-size: 1rem;
+    }
+    .quick-links-list {
+        font-size: 0.6rem;
+    }
+    .contact-title {
+        font-size: 1rem;
+    }
+    .contact-list {
+        font-size: 0.8rem;
+    }
+    .logo-section {
+        display: none;
+    }
+    .logo {
+        width: 48px;
+        height: 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-bottom {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+        align-items: center; /* Center align items */
+        padding: 12px; /* Adjust padding */
+        text-align: center; /* Center text */
+    }
+    .footer-bottom .social-icons {
+        margin-top: 8px; /* Add margin for spacing when stacked */
+    }
+}
+
+@media (max-width: 425px) {
+    .footer-bottom {
+        padding: 8px; /* Further reduce padding on extra small screens */
+    }
+    .footer-bottom .social-icons {
+        gap: 0.5rem; /* Reduce gap between social icons */
+    }
+    .footer-bottom .social-icons a {
+        font-size: 0.8rem; /* Adjust font size of icons */
+    }
+}

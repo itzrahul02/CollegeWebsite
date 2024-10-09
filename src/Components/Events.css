@@ -1,0 +1,104 @@
+.arrow{
+    background:rgb(8, 8, 126);
+    color:white;
+    width: fit-content;
+    padding: 0.5rem;
+    border-radius: 100%;
+}
+.card{
+    border-radius: 8px;
+}
+.image{
+    border-radius: 8px 8px 0 0;
+    width: 25rem;
+    height: 15rem;
+}
+.slick-slide > div {
+    margin: 0 10px !important;
+    padding: 10px 0 !important;
+}
+
+.slick-next,
+.slick-prev {
+    background-color: #1A1C4E !important;
+    border: solid 2px black !important;
+    color: none !important;
+    border-radius: 8px !important;
+    width: 4rem !important;
+    height: 2.5rem !important;
+    z-index:1
+}
+.slick-next{
+    right: -70px !important;
+}
+.slick-prev{
+    left: -70px !important;
+}
+
+.slick-next::before,
+.slick-prev::before {
+    font-family: sans-serif !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    opacity: 1 !important;
+    font-size: 25px !important;
+}
+
+.slick-next::before {
+    content: '>' !important;
+}
+
+.slick-prev::before {
+    content: '<' !important;
+}
+.slick-dots {
+    bottom: 10px !important; 
+    position:relative !important;
+    top: 1rem;
+}
+
+.slick-dots li {
+    margin: 0 20px !important; 
+    
+}
+
+.slick-dots li button {
+    width: 50px !important; 
+    height: 1px !important;
+    background-color: #9997979d !important; /* Color of the dash */
+    border: none !important;
+    border-radius: 5px !important; /* Rounded corners */
+}
+
+
+.slick-dots li.slick-active button {
+    background-color: #1A1C4E !important; 
+}
+
+.slick-dots li button:before {
+    content: '' !important; 
+}
+.slick-slide {
+    transition: transform 0.5s ease-in-out; /* Smooth slide transitions */
+}
+.container1 {
+    padding-top: 10rem ;
+    width: 90% ;
+    font-size: 2.5rem 
+}
+@media (max-width: 426px) {
+    .container1 {
+        padding-top: 6.5rem;
+        width: 90%;
+        font-size: 2rem; /* Adjusted to use rem for better scaling */
+    }
+}
+@media (min-width:425px) and (max-width:990px){
+    .container1{
+        padding-top: 7.5rem;
+        width:90%;
+        font-size: 2rem;
+        
+    }
+}
